@@ -1,6 +1,8 @@
+package com.home.ivan;
+
 import java.util.Date;
 
-public class Greeting {
+public class GreetingImpl implements Greeting{
 
   public String getDaytime(Date date) {
     long hour = date.getHours();
